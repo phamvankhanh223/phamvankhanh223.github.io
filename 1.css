@@ -1,1 +1,88 @@
-*{margin: 0; padding: 0;} 
+
+
+/*css cho top */
+h4.nghenghiep {
+    color: rebeccapurple;
+    font-weight: 600;
+    opacity:0;
+    transition: 0.4s;
+    animation: noidungtopdilen 1s forwards;
+    animation-delay: 0.8s;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.noidungtren h3.ten {
+    font-size: 52px;
+    color: white;
+    margin-top: 20px;
+    opacity:0;
+    transition: 0.4s;
+    animation: noidungtopdilen 1s forwards;
+    animation-delay:0.6s;
+
+}
+
+.anhtop .noidungtren img {
+    width: 301px;
+    display:  inline-block;
+    transition: 0.4s;
+    opacity:0;
+    animation:dixuong 1s forwards;
+}
+
+.anhtop .noidungtren {
+    display:  table-cell;
+    vertical-align: middle;
+}
+
+.anhtop {
+    width:  100%;
+    height:  770px;
+    background-image: url(images/bg_top.jpg);
+    background-size: cover;
+    text-align: center;
+    display:  table;
+    box-sizing:  border-box;
+}
+
+/*lam hieu ung cho top*/
+@-webkit-keyframes dixuong{
+	0%{opacity: 0;transform: translateY(-100%)
+	}
+	100%{opacity:1;transform:translateY(0px);}
+}
+
+
+@-webkit-keyframes noidungtopdilen{
+	0%{opacity:0;transform:translateY(500px);}
+	100%{opacity:1;transform: translateY(0px);}
+}
+
+*{margin: 0; padding: 0;}
+
+/*end css cho top*/
+/*css cho phan di dong*/
+
+@media (max-width: 576px)
+{
+	*{margin:0px;padding: 0px;}
+
+	h4.nghenghiep {
+	    color: lightblue;
+	    font-size: 17px;
+	}
+
+	.anhtop h3.ten {
+	    font-size: 30px;
+	    font-weight:  bold;
+	    text-transform:  uppercase;
+	}
+
+	.anhtop .noidungtren img {
+	    width: 185px;
+	}
+
+
+}
