@@ -69,9 +69,41 @@ body{
 }
 
 
-*{margin: 0; padding: 0;}
+
+
+.menu div#exCollapsingNavbar2 {
+    height:  50px;
+    background-color: #ffffd0;
+    border-radius: 10px;
+    margin-top: -36px;
+    box-sizing:  border-box;
+    padding: 5px 29px;
+}
 
 /*end css cho top*/
+
+/*css cho khoi menu khoi thongtin*/
+*{margin: 0; padding: 0;}
+
+h3.tieude {
+    font-weight: 600;
+    font-size: 37px;
+    margin-bottom: 37px;
+}
+
+.thongtin {
+    padding-top: 100px;
+    box-sizing:  border-box;
+}
+
+.thongtin .col-sm-6.soluoc {
+    height: 462px;
+}
+
+
+
+
+
 /*css cho phan di dong*/
 
 @media (max-width: 576px)
