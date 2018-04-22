@@ -13,6 +13,8 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.col-sm-4 {}
+
 .noidungtren h3.ten {
     font-size: 52px;
     color: white;
@@ -83,7 +85,7 @@ body{
 /*end css cho top*/
 
 /*css cho khoi menu khoi thongtin*/
-*{margin: 0; padding: 0;}
+
 
 h3.tieude {
     font-weight: 600;
@@ -137,6 +139,34 @@ figcaption{
 	padding:5px 10px;
 	text-align: center;
 }
+
+
+*{margin: 0; padding: 0;}
+
+.noidung {
+    margin-top: 40px;
+}
+
+.thongtin a.fa.fa-facebook {
+    font-size: 23px;
+    padding-top: 10px;
+    display: block;
+    border-radius:  50%;
+    border:  1px solid gray;
+    width: 40px;
+    height: 40px;
+    padding-left: 0px;
+    text-align: center;
+    background-color: lightblue;
+    cursor:  pointer;
+}
+
+.thongtin .col-sm-4 {
+    margin-top: 78px;
+    padding-left: 20px;
+}
+
+
 
 /*end css cho khoi isotop*/
 /*css cho phan di dong*/
