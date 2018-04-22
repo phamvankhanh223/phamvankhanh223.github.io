@@ -107,7 +107,38 @@ h3.tieude {
 
 
 
+/*css cho khoi isotop*/
 
+.khoianh img {
+    width:  100%;
+}
+
+.khoianh {
+    width:  25%;
+    box-sizing:  border-box;
+    padding: 0px 3px;
+}
+
+.khoianh.nhandoi {
+    width:  50%;
+}
+
+.noidung {
+    display:  flex;
+    flex-wrap:  wrap;
+} 
+
+figcaption{
+	background:lightblue;
+	font-family: segoe ui light;
+	font-size:15px;
+	color:black;
+	font-weight: bold;
+	padding:5px 10px;
+	text-align: center;
+}
+
+/*end css cho khoi isotop*/
 /*css cho phan di dong*/
 
 @media (max-width: 576px)
