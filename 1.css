@@ -175,6 +175,42 @@ figcaption{
 {
 	*{margin:0px;padding: 0px;}
 
+.thontin .col-sm-4 {
+    text-align:  left;
+}
+
+.thongtin {
+    margin-top: 126px;
+    text-align:  center;
+}
+
+.thongtin .col-sm-4 div {
+    text-align:  left;
+    margin-left: 56px;
+}
+
+.menu li.nav-item {
+    border-bottom:  1px solid gray;
+}
+
+.menu ul.nav.navbar-nav.float-sm-right {
+    width:  100%;
+    display:  inline-block;
+    text-align:  center;
+    text-transform:  uppercase;
+    color: #244640;
+}
+
+.menu a.navbar-brand {
+    margin-top: 43px;
+}
+
+.menu a.navbar-brand {
+    text-align:  center;
+    font-weight:  bold;
+    margin-top: 39px;
+}
+
 	h4.nghenghiep {
 	    color: lightblue;
 	    font-size: 17px;
