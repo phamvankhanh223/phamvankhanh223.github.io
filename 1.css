@@ -10,7 +10,7 @@ h4.nghenghiep {
     animation-delay: 0.8s;
 }
 body{
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .col-sm-4 {}
@@ -54,20 +54,20 @@ body{
 
 /*lam hieu ung cho top*/
 @-webkit-keyframes dixuong{
-	0%{opacity: 0;transform: translateY(-100%)
-	}
-	100%{opacity:1;transform:translateY(0px);}
+    0%{opacity: 0;transform: translateY(-100%)
+    }
+    100%{opacity:1;transform:translateY(0px);}
 }
 
 
 @-webkit-keyframes noidungtopdilen{
-	0%{opacity:0;transform:translateY(500px);}
-	100%{opacity:1;transform: translateY(0px);}
+    0%{opacity:0;transform:translateY(500px);}
+    100%{opacity:1;transform: translateY(0px);}
 }
 
 @-webkit-keyframes anBackgroundTop{
-	0%{transform:scale(2);}
-	100%{transform: scale(1);}
+    0%{transform:scale(2);}
+    100%{transform: scale(1);}
 }
 
 
@@ -102,9 +102,9 @@ h3.tieude {
     height: 462px;
 }
 .khcommentfacebook{
-	margin-top:100px;
-	margin-bottom: 100px;
-	text-align: center;
+    margin-top:100px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 
@@ -131,17 +131,38 @@ h3.tieude {
 } 
 
 figcaption{
-	background:lightblue;
-	font-family: segoe ui light;
-	font-size:15px;
-	color:black;
-	font-weight: bold;
-	padding:5px 10px;
-	text-align: center;
+    background:lightblue;
+    font-family: segoe ui light;
+    font-size:15px;
+    color:black;
+    font-weight: bold;
+    padding:5px 10px;
+    text-align: center;
 }
 
 
 *{margin: 0; padding: 0;}
+
+.khoiaudio {
+    opacity: 0;transition: 0.5s;
+    transform: scale(0.5);
+    animation-delay: 2s;
+    animation:dilen 1s forwards;
+}
+
+@-webkit-keyframes dilen{
+    0% {opacity:0;transform: scale(0.5);}
+    100%{opacity:1;transform: scale(1);}
+}
+
+span.btn.btn-outline-success.duocchon {
+    background-color: #601851;
+    color: yellow;
+}
+
+span.btn.btn-outline-success.duocchon:hover {
+    background-color: #1d4260;
+}
 
 .noidung {
     margin-top: 40px;
@@ -173,7 +194,7 @@ figcaption{
 
 @media (max-width: 576px)
 {
-	*{margin:0px;padding: 0px;}
+    *{margin:0px;padding: 0px;}
 
 .thontin .col-sm-4 {
     text-align:  left;
@@ -211,20 +232,20 @@ figcaption{
     margin-top: 39px;
 }
 
-	h4.nghenghiep {
-	    color: lightblue;
-	    font-size: 17px;
-	}
+    h4.nghenghiep {
+        color: lightblue;
+        font-size: 17px;
+    }
 
-	.anhtop h3.ten {
-	    font-size: 30px;
-	    font-weight:  bold;
-	    text-transform:  uppercase;
-	}
+    .anhtop h3.ten {
+        font-size: 30px;
+        font-weight:  bold;
+        text-transform:  uppercase;
+    }
 
-	.anhtop .noidungtren img {
-	    width: 185px;
-	}
+    .anhtop .noidungtren img {
+        width: 185px;
+    }
 
 
 }
