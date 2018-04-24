@@ -50,12 +50,15 @@ body{
     transition: 0.4s;
     animation:anBackgroundTop 2s forwards;
     animation-delay: 2s;
+    overflow: hidden;
 }
 
 /*lam hieu ung cho top*/
 @-webkit-keyframes dixuong{
     0%{opacity: 0;transform: translateY(-100%)
     }
+
+
     100%{opacity:1;transform:translateY(0px);}
 }
 
@@ -67,7 +70,8 @@ body{
 
 @-webkit-keyframes anBackgroundTop{
     0%{transform:scale(2);}
-    100%{transform: scale(1);}
+    50%{transform:scale(1);}
+    100%{transform: scale(1);background-image:url("images/giphy.gif");background-size: unset;}
 }
 
 
