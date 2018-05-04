@@ -1,0 +1,49 @@
+*{margin: 0; padding: 0;}
+
+.row.Project .col-sm-1 {
+    margin-bottom: 21px;
+}
+
+.row.tk_number_project {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row.Project input.form-control {
+    width: 289px;
+}
+
+table i.fa.fa-times-circle {
+    color: red;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.menu .col-sm-10 {
+    margin-top: 9px;
+    text-align: right;
+    padding-right: 132px;
+}
+
+.row.menu span {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.row.menu {
+    margin-bottom: 28px;
+    background-color: black;
+    padding: 21px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right:  20px;
+    font-size: 17px;
+}
+
+.menu ul {
+    list-style: none;
+    display: inline;
+} 
